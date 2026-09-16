@@ -6,7 +6,8 @@ Funflix 联合开发仓库，通过 Git 子模块固定后端与 Web 界面的�
 
 | 目录 | 项目 | 说明 |
 | --- | --- | --- |
-| `apps/funflix` | [funflix](https://github.com/farfarfun/funflix) | 影视资源采集、解析、校验与查询服务 |
+| `apps/funflix` | [funflix](https://github.com/farfarfun/funflix) | 核心库：影视资源采集、解析、校验的领域逻辑与 CLI |
+| `apps/funflix-api` | [funflix-api](https://github.com/farfarfun/funflix-api) | 后端 API 服务，依赖 funflix 提供的领域逻辑，被 funflix-web 反代 |
 | `apps/funflix-web` | [funflix-web](https://github.com/farfarfun/funflix-web) | Web 界面、静态资源服务与后端反向代理 |
 
 具体的安装、配置和开发方式见各子项目 README。
@@ -30,7 +31,7 @@ git submodule update --init --recursive
 
 ```bash
 git submodule update --remote
-git add apps/funflix apps/funflix-web
+git add apps/funflix apps/funflix-api apps/funflix-web
 ```
 
 更新后的子模块提交由当前仓库记录，需要随父仓库一起提交。
@@ -43,4 +44,5 @@ git add apps/funflix apps/funflix-web
 bash scripts/build.sh
 ```
 
-脚本会依次构建 `funflix` 和 `funflix-web`，最后执行 `funbuild push`。
+脚本会依次构建 `funflix`、`funflix-api`、`funflix-web`（`funflix-api` 依赖 `funflix`
+已发布的新版本，必须排在其后），最后执行 `funbuild push`。

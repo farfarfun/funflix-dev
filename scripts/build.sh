@@ -2,9 +2,14 @@
 set -e
 
 git -C apps/funflix switch master
+git -C apps/funflix-api switch master
 git -C apps/funflix-web switch master
 
 cd apps/funflix
+funbuild build
+
+cd ../..
+cd apps/funflix-api
 funbuild build
 
 cd ../..

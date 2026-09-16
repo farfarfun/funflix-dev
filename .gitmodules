@@ -4,3 +4,6 @@
 [submodule "apps/funflix-web"]
 	path = apps/funflix-web
 	url = https://github.com/farfarfun/funflix-web.git
+[submodule "apps/funflix-api"]
+	path = apps/funflix-api
+	url = https://github.com/farfarfun/funflix-api.git
