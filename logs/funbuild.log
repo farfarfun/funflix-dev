@@ -1,4 +1,6 @@
-2026-09-19 12:14:06.305 |WARNING | funbuild.core.empty_build : empty_build:  18 | funbuild | - 未识别到版本清单 (pyproject.toml / package.json / VERSION / script/__version__.md), 回退到 EmptyBuild: upgrade、tag、build 将不会有任何效果
-2026-09-19 12:14:06.307 |INFO    | funbuild.core.base : base: 280 | funbuild | - funflix-dev build
-2026-09-19 12:14:06.307 |INFO    | funbuild.core.base : base: 149 | funbuild | - funflix-dev pull
-2026-09-19 12:14:06.775 |INFO    | funbuild.core.base : base: 191 | funbuild | - funflix-dev push
+2026-09-21 11:47:51.667 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 275 | funbuild | - funflix-dev build (submodule workspace)
+2026-09-21 11:47:51.669 |INFO    | funbuild.core.base : base: 149 | funbuild | - funflix-dev pull
+2026-09-21 11:47:52.204 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 282 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix with shared version 1.0.2
+2026-09-21 11:48:14.902 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 282 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api with shared version 1.0.2
+2026-09-21 11:48:24.189 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 282 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-web with shared version 1.0.2
+2026-09-21 11:49:34.734 |INFO    | funbuild.core.base : base: 191 | funbuild | - funflix-dev push
