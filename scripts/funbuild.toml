@@ -1,4 +1,4 @@
-version = "1.0.10"
+version = "1.0.17"
 # 每个 app 构建前把这些依赖升到最新版: funflix 是这条链的上游, funflix-api
 # 的下界曾一路停在 >=0.1.64 而线上早已是 1.0.5。
 packages = ["funflix"]
