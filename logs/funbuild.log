@@ -1,8 +1,7 @@
-2026-10-06 13:39:43.141 |INFO    | funbuild.core.base : base: 273 | funbuild | - funflix-dev push
-2026-10-06 13:39:48.492 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 276 | funbuild | - funflix-dev build (submodule workspace)
-2026-10-06 13:39:48.492 |INFO    | funbuild.core.base : base: 230 | funbuild | - funflix-dev pull
-2026-10-06 13:39:49.004 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix with shared version 1.0.28
-2026-10-06 13:40:26.536 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api with shared version 1.0.28
-2026-10-06 13:40:27.033 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 184 | funbuild | - upgrade pinned dependency to latest (uv): funflix (/home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api)
-2026-10-06 13:40:37.308 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-web with shared version 1.0.28
-2026-10-06 13:41:28.316 |INFO    | funbuild.core.base : base: 273 | funbuild | - funflix-dev push
+2026-10-08 11:11:28.889 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 276 | funbuild | - funflix-dev build (submodule workspace)
+2026-10-08 11:11:28.892 |INFO    | funbuild.core.base : base: 230 | funbuild | - funflix-dev pull
+2026-10-08 11:11:29.414 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix with shared version 1.0.29
+2026-10-08 11:11:41.549 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api with shared version 1.0.29
+2026-10-08 11:11:42.070 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 184 | funbuild | - upgrade pinned dependency to latest (uv): funflix (/home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api)
+2026-10-08 11:11:51.762 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-web with shared version 1.0.29
+2026-10-08 11:13:21.999 |INFO    | funbuild.core.base : base: 273 | funbuild | - funflix-dev push
