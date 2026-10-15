@@ -59,3 +59,15 @@ scripts/setup.sh rollback <api|web|core|all> <version>
 `api`/`web` 是常驻服务，接受 service 动作；`core`（`funflix`）是纯 package，没有
 自己的进程，只接受 release 动作。缺参数时会弹交互菜单（需要 `gum`）；参数给全就
 直接执行。
+
+---
+
+## 关于 farfarfun
+
+[farfarfun](https://github.com/farfarfun) 是一个专注于实用工具库的开源组织，
+涵盖云存储、数据处理、AI、多媒体与开发工具链等方向。
+
+- 🏠 组织主页：<https://github.com/farfarfun>
+- 📧 联系：farfarfun@qq.com
+
+本项目基于 [MIT](LICENSE) 协议开源。
