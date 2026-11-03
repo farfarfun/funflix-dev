@@ -5,3 +5,4 @@
 2026-10-11 10:14:09.342 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 184 | funbuild | - upgrade pinned dependency to latest (uv): funflix (/home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-api)
 2026-10-11 10:14:19.076 |INFO    | funbuild.core.submodule_workspace_build : submodule_workspace_build: 283 | funbuild | - build /home/bingtao/workspace/github/farfarfun/funflix-dev/apps/funflix-web with shared version 1.0.35
 2026-10-11 10:15:30.387 |INFO    | funbuild.core.base : base: 273 | funbuild | - funflix-dev push
+2026-10-11 10:15:31.444 |WARNING | funbuild.core.util : util: 272 | funbuild | - aicommits 没有提交, 输出里也取不到可用信息: ''
